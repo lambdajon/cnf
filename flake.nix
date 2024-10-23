@@ -20,9 +20,9 @@
         localSystem = { inherit system; };
         config = {
           allowUnfree = true;
-          allowUnsupportedSystem = true;
-          allowUnfreePredicate = _: true;
-          allowBroken = true;
+          # allowUnsupportedSystem = true;
+          # allowUnfreePredicate = _: true;
+          # allowBroken = true;
         };
         overlays = [
           overlay
