@@ -54,7 +54,6 @@
             }
           ];
         };
-        fklr = mkSystem { hostname = "fklr"; username = "alice"; };
       };
     };
 }
