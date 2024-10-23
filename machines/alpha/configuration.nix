@@ -106,7 +106,7 @@
     videoDrivers = [ "nvidia" ];
   };
 
-  hardware.opengl = all-opengl // x86_64-opengl;
+  # hardware.opengl = all-opengl // x86_64-opengl;
 
   services.openssh.enable = true;
   services.pcscd.enable = true;
