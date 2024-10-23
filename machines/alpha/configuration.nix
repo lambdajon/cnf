@@ -13,23 +13,20 @@
   boot.swraid.enable = false;
 
   networking.hostName = hostname;
-  networking.extraHosts =
-    ''
-      127.0.0.1 gemini.google.com
-    '';
+
   networking.networkmanager.enable = true;
 
   time.timeZone = "Etc/GMT-5";
-  i18n.defaultLocale = "de_DE.UTF-8";
+  i18n.defaultLocale = "en_US.UTF-8";
   i18n.extraLocaleSettings = {
-    LANGUAGE = "de_DE";
-    LC_ALL = "de_DE.UTF-8";
+    LANGUAGE = "en_US";
+    LC_ALL = "en_US.UTF-8";
   };
 
   services.xserver = {
     enable = true;
     xkb = {
-      layout = "us,ru,de";
+      layout = "us,ru";
       options = "caps:escape,grp:alt_shift_toggle";
       variant = "altgr-intl";
     };
