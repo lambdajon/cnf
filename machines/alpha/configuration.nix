@@ -88,8 +88,8 @@
     
   ];
   environment.gnome.excludePackages = (with pkgs; [
-    gnome.dconf-editor
-    gnome.gnome-tweaks
+    # gnome.dconf-editor
+    # gnome.gnome-tweaks
     gnomeExtensions.appindicator
     gnomeExtensions.dash-to-dock
     gnomeExtensions.gsconnect

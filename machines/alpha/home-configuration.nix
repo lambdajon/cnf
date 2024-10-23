@@ -79,12 +79,12 @@ in
           version = "4.9.95";
           sha256 = "0169harv9niwsjhi8pn3p063k1yhnlgjspih6gcfa6wxil50djzp";
         }
-        {
-          # imagus
-          id = "immpkjjlgappgfkkfieppnmlhakdmaab";
-          version = "0.9.8.74";
-          sha256 = "19mirfy8ggq2zaxp8clv28aq1lmv5xdlvf9j62ig9p75pr4v3qa1";
-        }
+        # {
+        #   # imagus
+        #   id = "immpkjjlgappgfkkfieppnmlhakdmaab";
+        #   version = "0.9.8.74";
+        #   sha256 = "19mirfy8ggq2zaxp8clv28aq1lmv5xdlvf9j62ig9p75pr4v3qa1";
+        # }
         {
           # i-still-dont-care-about-cookies
           id = "edibdbjcniadpccecjdfdjjppcpchdlm";
